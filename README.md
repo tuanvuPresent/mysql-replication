@@ -20,3 +20,9 @@ CHANGE MASTER TO MASTER_HOST='mysql-master',
     MASTER_AUTO_POSITION=1;
 START SLAVE;
 ```
+
+- slave failed
+```sql
+reset slave;
+start slave;
+```
